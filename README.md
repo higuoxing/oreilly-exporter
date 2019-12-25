@@ -8,3 +8,6 @@ Yes, mordern explorer indeed can export html page to PDF, but e-books on `learni
 * checkout [release](github.com/vgxbj) page, and download it.
 * Unpack the expressed file.
 * Install it on your Chrome/Chromium browser as unpacked extension.
+
+#### Screenshots
+![](.github/images/oreilly-exporter.png)
