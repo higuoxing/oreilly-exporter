@@ -5,7 +5,7 @@ A Chrome/Chromium extension that helps export oreilly e-book as PDF. (E-books on
 Yes, mordern explorer indeed can export html page to PDF, but e-books on `learning.oreilly.com` are exported malformed.
 
 ### Cool, how to use?
-* checkout [release](github.com/vgxbj) page, and download it.
+* checkout [release](https://github.com/vgxbj/oreilly-exporter/releases) page, and download it.
 * Unpack the expressed file.
 * Install it on your Chrome/Chromium browser as unpacked extension.
 
