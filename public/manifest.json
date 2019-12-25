@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Oreilly Exporter",
+  "description": "Chrome/Chromium extension for downloading Oreilly e-books as PDF",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "content_scripts": [
+      {
+          "matches": ["*://learning.oreilly.com/*"],
+          "js": ["js/vendor.js", "js/content_script.js"]
+      }
+  ],
+
+  "background": {
+    "scripts": ["js/vendor.js", "js/background.js"]
+  },
+
+  "permissions": [
+    "*://learning.oreilly.com/*"
+  ],
+
+  "web_accessible_resources": ["download-solid.svg"]
+}

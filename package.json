@@ -1,0 +1,28 @@
+{
+  "name": "oreilly-exporter",
+  "version": "1.0.0",
+  "description": "Chrome/Chromium extension for downloading Oreilly e-books as PDF",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "clean": "rimraf dist",
+    "test": "npx jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vgxbj/oreilly-exporter.git"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.91",
+    "copy-webpack-plugin": "^5.0.5",
+    "rimraf": "^3.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "~3.7.3",
+    "webpack": "~4.41.2",
+    "webpack-cli": "~3.3.10",
+    "webpack-merge": "~4.2.2"
+  }
+}
